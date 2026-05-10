@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ruikunl.github.io/EasyMD-site/sitemap.xml

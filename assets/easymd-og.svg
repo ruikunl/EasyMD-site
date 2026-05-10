@@ -1,0 +1,23 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6F8FC"/>
+  <circle cx="190" cy="70" r="260" fill="#0A84FF" fill-opacity="0.14"/>
+  <circle cx="1040" cy="120" r="240" fill="#11B79F" fill-opacity="0.14"/>
+  <rect x="68" y="72" width="1064" height="486" rx="34" fill="white" stroke="#D9E1EF"/>
+  <rect x="104" y="114" width="240" height="402" rx="22" fill="#F5F7FB"/>
+  <rect x="376" y="114" width="720" height="402" rx="22" fill="#FBFCFF" stroke="#D9E1EF"/>
+  <text x="104" y="170" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif" font-size="68" font-weight="750">EasyMD</text>
+  <text x="104" y="228" fill="#526071" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="28">Markdown reading, controllable tables, consistent PDF export.</text>
+  <rect x="104" y="288" width="184" height="52" rx="26" fill="#111827"/>
+  <text x="132" y="322" fill="white" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="20" font-weight="650">Early preview</text>
+  <text x="424" y="178" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="30" font-weight="700">PDF-ready Markdown</text>
+  <text x="424" y="222" fill="#667085" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="20">Preview and export share the same layout intent.</text>
+  <rect x="424" y="270" width="584" height="170" rx="16" fill="white" stroke="#C9D5E6"/>
+  <rect x="424" y="270" width="584" height="48" rx="16" fill="#F2F6FC"/>
+  <path d="M424 318H1008M424 378H1008M618 270V440M812 270V440" stroke="#D4DDEB" stroke-width="2"/>
+  <text x="456" y="302" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="18" font-weight="700">Table control</text>
+  <text x="650" y="302" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="18" font-weight="700">Export fit</text>
+  <text x="844" y="302" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="18" font-weight="700">Images</text>
+  <text x="456" y="356" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="18">Widths and alignment</text>
+  <text x="650" y="356" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="18">A4 print preview</text>
+  <text x="844" y="356" fill="#111827" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',sans-serif" font-size="18">Resize and align</text>
+</svg>

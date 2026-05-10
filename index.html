@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EasyMD - Markdown 阅读、编辑与一致性 PDF 导出</title>
+    <meta name="description" content="EasyMD 是早期的 macOS Markdown 阅读与编辑工具，专注 PDF 导出一致性、可控表格输出和可调整图片。">
+    <meta name="keywords" content="Markdown, macOS, PDF 导出, Markdown 编辑器, 表格排版, 图片调整, EasyMD">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://ruikunl.github.io/EasyMD-site/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://ruikunl.github.io/EasyMD-site/">
+    <link rel="alternate" hreflang="en" href="https://ruikunl.github.io/EasyMD-site/en/">
+    <link rel="alternate" hreflang="x-default" href="https://ruikunl.github.io/EasyMD-site/">
+    <meta property="og:title" content="EasyMD - Markdown 阅读与一致性 PDF 导出">
+    <meta property="og:description" content="本地 Markdown 阅读、编辑、表格控制、图片调整和更接近预览效果的 PDF 导出。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ruikunl.github.io/EasyMD-site/">
+    <meta property="og:image" content="https://ruikunl.github.io/EasyMD-site/assets/easymd-og.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "EasyMD",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "macOS 14+",
+        "description": "A lightweight macOS Markdown reader and editor focused on consistent PDF export, controllable table output, and adjustable images.",
+        "downloadUrl": "https://github.com/ruikunl/EasyMD-site/releases/latest"
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="EasyMD 首页">
+        <img src="assets/favicon.svg" alt="" width="34" height="34">
+        <span>EasyMD</span>
+      </a>
+      <nav>
+        <a href="#features">功能</a>
+        <a href="#roadmap">路线图</a>
+        <a href="https://github.com/ruikunl/EasyMD-site/issues">提交需求</a>
+        <a class="language" href="en/">English</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">macOS Markdown reader and exporter</p>
+          <h1>让 Markdown 预览和导出更一致。</h1>
+          <p class="lead">EasyMD 是一个轻量化 macOS Markdown 阅读与编辑工具，重点解决 PDF 输出时表格跑版、图片尺寸不可控、预览和导出不一致的问题。</p>
+          <div class="actions">
+            <a class="button primary" href="https://github.com/ruikunl/EasyMD-site/releases/latest">下载早期版本</a>
+            <a class="button secondary" href="https://github.com/ruikunl/EasyMD-site/issues/new/choose">提交 issue 或需求</a>
+          </div>
+          <p class="note">当前是非常早期版本。公式与代码块还没有专门深度适配，欢迎带样例反馈。</p>
+        </div>
+        <div class="product-visual" aria-label="EasyMD 界面预览">
+          <div class="window">
+            <div class="traffic"><span></span><span></span><span></span></div>
+            <div class="sidebar">
+              <strong>Outline</strong>
+              <span>1. Strategy</span>
+              <span>2. Tables</span>
+              <span>3. Export</span>
+            </div>
+            <div class="editor"><span># EasyMD</span><span>| Column | Width |</span><span>| --- | --- |</span></div>
+            <div class="preview">
+              <h3>PDF-ready Markdown</h3>
+              <p>Images, citations, and table layouts stay predictable.</p>
+              <div class="mock-table">
+                <span>数据类型</span><span>采集成本</span><span>说明</span>
+                <span>企业共建数据</span><span>0-5 RMB/小时</span><span>可控排版</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features">
+        <article>
+          <span class="icon">PDF</span>
+          <h2>导出一致性</h2>
+          <p>阅读栏提供打印预览，PDF 导出沿用同一套页边距、字号与表格布局设置。</p>
+        </article>
+        <article>
+          <span class="icon">Grid</span>
+          <h2>表格可控</h2>
+          <p>支持表格总宽、列宽、对齐与锁定阅读样式，尽量保留你调整好的表格形态。</p>
+        </article>
+        <article>
+          <span class="icon">Img</span>
+          <h2>图片可调整</h2>
+          <p>本地图片可以渲染，也可以在阅读栏调整宽度与对齐，并写回 Markdown。</p>
+        </article>
+      </section>
+
+      <section class="details">
+        <div>
+          <p class="eyebrow">Local-first</p>
+          <h2>为本地文档工作流设计</h2>
+          <p>EasyMD 当前聚焦本地 Markdown 阅读、编辑和导出。渲染资源随 app 打包，不依赖远程 CDN，适合处理不想上传到在线编辑器的文档。</p>
+        </div>
+        <ul>
+          <li>三栏布局：最近文件、大纲、编辑器与实时预览。</li>
+          <li>支持相对路径、绝对路径和 HTTPS 图片。</li>
+          <li>中英文界面、自动/浅色/深色外观。</li>
+          <li>PDF 默认 A4，可配置方向、页边距和字号。</li>
+        </ul>
+      </section>
+
+      <section id="roadmap" class="roadmap">
+        <p class="eyebrow">Roadmap</p>
+        <h2>仍在早期，但方向很明确</h2>
+        <div class="timeline">
+          <article>
+            <strong>现在</strong>
+            <p>Markdown 阅读、编辑、表格控制、图片调整、打印预览和 PDF 导出。</p>
+          </article>
+          <article>
+            <strong>下一步</strong>
+            <p>继续优化复杂表格、引用、代码块和公式场景。</p>
+          </article>
+          <article>
+            <strong>未来</strong>
+            <p>增加飞书导入/导出，让 Markdown 与飞书文档之间流转更顺手。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>EasyMD v0.3 early preview</span>
+      <a href="https://github.com/ruikunl/EasyMD-site/issues">Issues</a>
+      <a href="https://github.com/ruikunl/EasyMD-site/releases/latest">Releases</a>
+    </footer>
+  </body>
+</html>

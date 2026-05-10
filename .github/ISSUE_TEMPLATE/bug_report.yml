@@ -1,0 +1,36 @@
+name: Bug report
+description: Report a rendering, export, or app behavior issue.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the issue and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Minimal Markdown sample
+      description: Paste a reduced sample if you can. Remove private or sensitive content before submitting.
+      render: markdown
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Markdown preview
+        - PDF export
+        - Table layout
+        - Image adjustment
+        - App UI
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: EasyMD version
+      placeholder: v0.3
