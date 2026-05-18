@@ -3,22 +3,74 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EasyMD - Markdown reading, editing, and consistent PDF export</title>
-    <meta name="description" content="EasyMD is an early macOS Markdown reader and editor focused on consistent PDF export, controllable tables, and adjustable images.">
-    <meta name="keywords" content="Markdown, macOS, PDF export, Markdown editor, table layout, image resize, EasyMD">
+    <title>EasyMD - macOS Markdown editor with consistent PDF export</title>
+    <meta name="description" content="EasyMD is a local-first macOS Markdown reader and editor with live preview, table and image layout control, Feishu DOCX import, and consistent PDF export.">
+    <meta name="keywords" content="EasyMD, Markdown editor, macOS Markdown, PDF export, Markdown reader, table layout, image resize, Feishu DOCX">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://ruikunl.github.io/EasyMD-site/en/">
     <link rel="alternate" hreflang="zh-Hans" href="https://ruikunl.github.io/EasyMD-site/">
     <link rel="alternate" hreflang="en" href="https://ruikunl.github.io/EasyMD-site/en/">
     <link rel="alternate" hreflang="x-default" href="https://ruikunl.github.io/EasyMD-site/">
-    <meta property="og:title" content="EasyMD - Markdown reading and consistent PDF export">
-    <meta property="og:description" content="Local Markdown reading, editing, table control, image adjustment, and PDF export that stays closer to preview.">
+    <meta property="og:title" content="EasyMD - macOS Markdown editor with consistent PDF export">
+    <meta property="og:description" content="Local Markdown reading, editing, live preview, table control, image adjustment, Feishu DOCX import, and PDF export that stays closer to preview.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ruikunl.github.io/EasyMD-site/en/">
     <meta property="og:image" content="https://ruikunl.github.io/EasyMD-site/assets/easymd-og.svg">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="EasyMD - macOS Markdown editor with consistent PDF export">
+    <meta name="twitter:description" content="A local-first macOS Markdown reader and editor for controllable tables, adjustable images, and predictable PDF output.">
+    <meta name="twitter:image" content="https://ruikunl.github.io/EasyMD-site/assets/easymd-og.svg">
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="../assets/styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://github.com/ruikunl#person",
+            "name": "ruikunl",
+            "url": "https://github.com/ruikunl"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://ruikunl.github.io/EasyMD-site/en/#website",
+            "url": "https://ruikunl.github.io/EasyMD-site/en/",
+            "name": "EasyMD",
+            "inLanguage": "en",
+            "description": "EasyMD is a local-first macOS Markdown reader and editor with live preview, table and image layout control, Feishu DOCX import, and consistent PDF export.",
+            "publisher": {
+              "@id": "https://github.com/ruikunl#person"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://ruikunl.github.io/EasyMD-site/#software",
+            "name": "EasyMD",
+            "url": "https://ruikunl.github.io/EasyMD-site/en/",
+            "sameAs": [
+              "https://github.com/ruikunl/EasyMD-site"
+            ],
+            "applicationCategory": "ProductivityApplication",
+            "operatingSystem": "macOS 14+",
+            "softwareVersion": "0.4.2",
+            "description": "A local-first macOS Markdown reader and editor focused on live preview, table and image layout control, Feishu DOCX import, and consistent PDF export.",
+            "image": "https://ruikunl.github.io/EasyMD-site/assets/easymd-og.svg",
+            "downloadUrl": "https://github.com/ruikunl/EasyMD-site/releases/latest",
+            "releaseNotes": "https://github.com/ruikunl/EasyMD-site/releases/latest",
+            "author": {
+              "@id": "https://github.com/ruikunl#person"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock"
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -38,8 +90,8 @@
       <section class="hero">
         <div class="hero-copy">
           <p class="eyebrow">macOS Markdown reader and exporter</p>
-          <h1>Make Markdown preview and export stay in sync.</h1>
-          <p class="lead">EasyMD is a lightweight macOS Markdown reader and editor built for people who care about predictable PDF output, controllable tables, and adjustable local images.</p>
+          <h1>EasyMD keeps Markdown preview and export in sync.</h1>
+          <p class="lead">EasyMD is a local-first macOS Markdown reader and editor built for people who care about predictable PDF output, controllable tables, and adjustable local images.</p>
           <div class="actions">
             <a class="button primary" href="https://github.com/ruikunl/EasyMD-site/releases/latest">Download early build</a>
             <a class="button secondary" href="https://github.com/ruikunl/EasyMD-site/issues/new/choose">File an issue or request</a>
@@ -72,7 +124,7 @@
         <article>
           <span class="icon">PDF</span>
           <h2>Export consistency</h2>
-          <p>Print preview and PDF export share page margins, text sizes, and table layout settings.</p>
+          <p>Print preview and PDF export share page margins, text sizes, table layout, and image settings.</p>
         </article>
         <article>
           <span class="icon">Grid</span>
@@ -90,7 +142,7 @@
         <div>
           <p class="eyebrow">Local-first</p>
           <h2>Designed for local document workflows</h2>
-          <p>EasyMD focuses on local Markdown reading, editing, manual Feishu DOCX import, and export. Preview resources are bundled with the app, so the core rendering path does not depend on a remote CDN.</p>
+          <p>EasyMD focuses on local Markdown reading, editing, live preview, manual Feishu DOCX import, and PDF export. Preview resources are bundled with the app, so the core rendering path does not depend on a remote CDN.</p>
         </div>
         <ul>
           <li>Three-pane workspace with recent files, outline, editor, and live preview.</li>
